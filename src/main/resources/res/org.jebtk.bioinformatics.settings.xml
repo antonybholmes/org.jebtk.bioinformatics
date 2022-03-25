@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <!-- clustal colors a(red) c(blue) g(gold) t(green) -->
+  <setting name="bioinformatics.dna.bases.a.color" value="#00aa44" />
+	<setting name="bioinformatics.dna.bases.c.color" value="#2c5aa0" />
+	<setting name="bioinformatics.dna.bases.g.color" value="#ffcc00" />
+	<setting name="bioinformatics.dna.bases.t.color" value="#c83737" />
+	<setting name="bioinformatics.dna.bases.n.color" value="#333333" />
+	
+	<setting name="bioinformatics.pathway.total-genes" value="45956" />
+	
+	<setting name="genome" value="hg19" />
+
+	<setting name="motifs.bases.a.color" value="#00d400" />
+	<setting name="motifs.bases.c.color" value="#2a7fff" />
+	<setting name="motifs.bases.g.color" value="#ffcc00" />
+	<setting name="motifs.bases.t.color" value="#ff2a2a" />
+	<setting name="motifs.motifsdb.remote-url" value="http://localhost:8080/motifs/api/v1/" />
+	
+	<setting name="cytobands.centromere.color" value="#ff5555" />
+	
+	<setting name="plot.functions.enable-new-dendrogram" value="true" />
+	<setting name="plot.block-size" value="16" />
+	<setting name="plot.legend-width" value="200" />
+	<setting name="plot.color-bar-width" value="200" />
+	<setting name="plot.max-display-rows" value="50000" />
+	<setting name="plot.data.point.default-size" value="9" />
+	
+	<!-- How many pixels to use to render a character -->
+	<setting name="plot.char-width" value="12" />
+	
+	<setting name="plot.row-label-max-chars" value="50" />
+	<setting name="plot.row-label-max-chars" value="50" />
+	
+	<!-- The default color of grid lines -->
+	<setting name="plot.grid.color" value="#e6e6e6" />
+	
+	<setting name="plot">
+		<setting name="fonts">
+			<setting name="text">
+				<setting name="family" value="Arial"/>
+				<setting name="style" value="plain"/>
+				<setting name="size" value="20"/>
+			</setting>
+				
+			<setting name="bold-text">
+				<setting name="family" value="Arial"/>
+				<setting name="style" value="bold"/>
+				<setting name="size" value="20"/>
+			</setting>
+		</setting>
+	</setting>
+</settings>
